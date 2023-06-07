@@ -13,4 +13,11 @@ public class GreetingResource {
     public String hello() {
         return "Hello from RESTEasy Reactive";
     }
+    
+    
+    @GET
+    @Produces(MediaType.TEXT_PLAIN)
+    public String endpoint() {
+    	return "OK";
+    }
 }

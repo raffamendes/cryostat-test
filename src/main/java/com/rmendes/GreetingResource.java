@@ -20,6 +20,6 @@ public class GreetingResource {
     @Path("/ok")
     @Produces(MediaType.TEXT_PLAIN)
     public String endpoint() {
-    	return "OK";
+    	return "okidoki";
     }
 }
